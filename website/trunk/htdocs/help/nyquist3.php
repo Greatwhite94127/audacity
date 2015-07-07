@@ -69,7 +69,7 @@ printf('<p>%s</p>', _('Audacity has limited support for plug-ins showing a dialo
 <?php
 printf('<p>%s</p>', _('If Audacity finds at least one "control" line, it will open a dialog to prompt the user for certain parameters to the plug-in.  Each parameter consists of a text box and a slider, and after the user has entered each one, the final value will be stored in a Nyquist variable with a name that you specify on the "control" line.  Here\'s what the dialog for the Delay effect shown above looks like in Audacity for Linux:'));
 
-printf('<p><img alt="%s" src="../images/nyquist-plugin-screenshot" width="414" height="221"></p>', _('Nyquist plugin screenshot'));
+printf('<p><img alt="%s" src="../images/nyquist-plugin-screenshot" width="414" height="221"></p>', _('Nyquist plug-in screenshot'));
 
 printf('<p>%s</p>', _('Note that the "info" line is displayed at the top of the dialog, and that the "\n" becomes a newline.  The parameters to the "control" line affect the appearance and limitations of the parameter.  Each "control" line must consist of exactly the following 8 elements, in order:'));
 
