@@ -2,7 +2,7 @@
 /*
  * Copyright 2003 Dominic Mazzoni
  * Copyright 2004 Matt Brubeck
- * Copyright 2006 - 12 Vaughan Johnson
+ * Copyright 2006 - 15 Vaughan Johnson
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -37,13 +37,13 @@
 <?php
 /*
  * // i18n-hint: the encoding inside the <a href> tag between the two 
- * // "echo" strings obscures the e-mail address from (at least some) 
+ * // "echo" strings obscures the email address from (at least some) 
  * // harvesting bots. Please translate the strings above and below
  * // the <a href> tag, and ignore the line with the <a href> tag itself.   
  *  echo _('If you prefer to send a personal check or another form of payment, please write to our        ')?>
  * <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#102;&#101;&#101;&#100;&#x62;&#97;&#99;&#107;&#x40;&#97;&#x75;&#x64;&#97;&#x63;&#105;&#116;&#x79;&#116;&#101;&#97;&#x6d;&#46;&#111;&#114;&#x67;"> 
  * <?php
- * echo _('feedback e-mail address</a> telling us what country you are in and how you\'d like to pay.');?>
+ * echo _('feedback email address</a> telling us what country you are in and how you\'d like to pay.');?>
  * </p>
  */
 echo _('Please note that we cannot accept other forms of payment such as checks or bank transfers. Also, donations to Audacity are not deductible for income taxes in the United States of America.');?>

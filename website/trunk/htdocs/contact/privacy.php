@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2003 Dominic Mazzoni
- * Copyright 2005-13 Matt Brubeck, Vaughan Johnson
+ * Copyright 2005-15 Matt Brubeck, Vaughan Johnson
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -27,16 +27,16 @@
 // join users lists in their native languages later on, to hear
 // announcements there.
 
-echo _('<p>You can subscribe to our announcement list by entering your e-mail address in the <a href="../#announce"> form</a> on the <a href="../">Audacity home page</a>.  We will use this list only to send you brief announcements of new Audacity releases.  We will never share the addresses on this list with anyone.</p>
-<p>To <b>unsubscribe</b> from the list at any time, enter your address in the <a href="../#announce">form</a> on our <a href="../">home page</a> and click "Remove". If you have any problems or questions, please e-mail our <a href="http://audacityteam.org/contact/#feedback">feedback address</a>.</p>')?>
+echo _('<p>You can subscribe to our announcement list by entering your email address in this <a href="http://lists.audacityteam.org/cgi-bin/mailman/listinfo/audacity-announce">subscription form</a>. We will use this list only to send you brief announcements of new Audacity releases.  We will never share the addresses on this list with anyone.</p>
+<p>To <b>unsubscribe</b> from the list at any time, go to the bottom of the <a href="http://lists.audacityteam.org/cgi-bin/mailman/listinfo/audacity-announce">Audacity-announce information page</a>, enter your subscription address, click "Unsubscribe or edit options", then on the page you come to, click "Unsubscribe". If you have any problems or questions, please email our <a href="http://audacityteam.org/contact/#feedback">feedback address</a>.</p>')?>
 
 <h3 id="lists"><?=_("Mailing List Policy")?></h3>
 
 <?=_('<p>(This applies to <a href="http://lists.sourceforge.net/lists/listinfo/audacity-devel">audacity-devel</a>, <a href="http://lists.sourceforge.net/lists/listinfo/audacity-users">audacity-users</a> and our other <a href="../contact/lists">discussion lists</a>.)</p>
 
 <p>These are public mailing lists.  When you send a message to any of these addresses, it will be forwarded to all the list subscribers, including Audacity developers and others.  SourceForge and other web sites may publish archives of these lists.</p>
-<p><b>Your e-mail address will always be truncated in published archives for your privacy, and the Audacity developers will not share your address with anyone.</b>  However, we <b>cannot</b> prevent other subscribers from seeing or publishing your messages. Therefore we recommend you avoid putting contact details such as street addresses or telephone numbers in your e-mails.</p>
-<p>If you have any questions about this policy, please e-mail our <a href="http://audacityteam.org/contact/#feedback">feedback address</a>.</p>')?>
+<p><b>Your email address will always be truncated in published archives for your privacy, and the Audacity developers will not share your address with anyone.</b>  However, we <b>cannot</b> prevent other subscribers from seeing or publishing your messages. Therefore we recommend you avoid putting contact details such as street addresses or telephone numbers in your emails.</p>
+<p>If you have any questions about this policy, please email our <a href="http://audacityteam.org/contact/#feedback">feedback address</a>.</p>')?>
 
 
 <?php

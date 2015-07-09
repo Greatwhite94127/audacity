@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2004 Matt Brubeck
- * 2007-2014 Vaughan Johnson, Gale Andrews
+ * 2007-2015 Vaughan Johnson, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -55,7 +55,7 @@
 
 <h3 id="bugs"><?=_('Bug Tracking')?></h3>
 <p><?=_('The Audacity developers use bugzilla to track bugs and enhancements. To find issues to work on, please view our categorized <a href="http://wiki.audacityteam.org/wiki/Bug_Lists">Bug Lists</a>.')?></p>
-<p><?=_('If you are a user reporting a new bug, please e-mail our <a href="../contact#feedback">feedback address</a>.')?></p>
+<p><?=_('If you are a user reporting a new bug, please email our <a href="../contact#feedback">feedback address</a>.')?></p>
 
 <h3><?=_('Submitting Patches')?></h3>
 <p><?=_('We welcome patches from developers. Please see our <a href="http://wiki.audacityteam.org/wiki/SubmittingPatches">Submitting Patches</a> page on the <a href="http://wiki.audacityteam.org/wiki">Audacity Wiki</a>.')?></p>

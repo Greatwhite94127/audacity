@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2012 - 2014 Gale Andrews, Vaughan Johnson
+ * Copyright 2012 - 2015 Gale Andrews, Vaughan Johnson
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -40,14 +40,14 @@
         "ebay" => array(
           _("Someone is selling Audacity on eBay.  Is this legal?"),
           // i18n-hint: the encoding inside the <a href> tag below
-          // obscures the e-mail address from (at least some)
+          // obscures the email address from (at least some)
           // harvesting bots. Please ignore it, and restart
-          // translation at "e-mail us".
+          // translation at "email us".
           _("<p>It is legal to sell Audacity, as long as the seller makes the program and source code available under the <a href=\"../about/license\">GNU General Public License</a> (GPL).</p>
 <p>Some vendors try to trick customers by selling unmodified Audacity software under a different name. If you bought a product and later found out it was Audacity, we encourage you to <b>ask for a refund or file a complaint</b> if you feel you did not get a fair deal.  We ask vendors to give proper credit to the Audacity project, and allow users to make an informed choice.</p>
 <p>If you have concerns that Audacity (unmodified or otherwise) is being sold without a copy of the GPL, or without any offer to provide source code, please
           <a href=\"&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#97;&#98;&#x75;&#115;&#x65;&#64;&#97;&#x75;&#100;&#97;&#x63;&#x69;&#116;&#x79;&#x74;&#101;&#97;&#x6d;&#x2e;&#x6f;&#114;&#x67;\">
-          e-mail us</a> in confidence. </p>
+          email us</a> in confidence. </p>
 <p><b>If you want to obtain Audacity on CD</b>, free ISO downloads and inexpensive CDs by post are available from suppliers on our <a href=\"../download/buy\">Audacity on CD page</a>.</p>")
         ),
         "language" => array(

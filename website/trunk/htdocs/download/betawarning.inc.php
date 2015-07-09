@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2005 Dominic Mazzoni
- * Copyright 2011 Martyn Shaw, Gale Andrews
+ * Copyright 2011-2015 Martyn Shaw, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -23,7 +23,7 @@
 <p>
 <?php
    // i18n-hint: the encoding inside the <a href> tag between the
-   // two echo strings obscures the e-mail address from (at least
+   // two echo strings obscures the email address from (at least
    // some) harvesting bots. Please translate the strings above
    // and below the <a href> tag, and ignore the line with the
    // <a href> tag itself.   

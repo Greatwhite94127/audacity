@@ -3,7 +3,7 @@
  * Copyright 2004 Matt Brubeck
  * 2006 Richard Ash
  * 2007 Vaughan Johnson
- * 2008-14 Gale Andrews
+ * 2008-15 Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -24,7 +24,7 @@
   ?>
 
 <h3><?=_('Audacity Forum for Questions or Problems')?></h3>
-<p><?=_('<b>There is no technical support by e-mail or telephone.</b> Most questions are answered in our <a href="../help/faq">Frequently Asked Questions (FAQ)</a>, <a href="../help/documentation">documentation</a>, and the additional <a href="http://wiki.audacityteam.org/wiki/Category:Tutorial">Tutorials</a> and <a href="http://wiki.audacityteam.org/wiki/Category:Tips">Tips</a> on the <a href="http://wiki.audacityteam.org/wiki">Audacity Wiki</a>. All these resources are searchable using the search box top right of this page.')?></p>
+<p><?=_('<b>There is no technical support by email or telephone.</b> Most questions are answered in our <a href="../help/faq">Frequently Asked Questions (FAQ)</a>, <a href="../help/documentation">documentation</a>, and the additional <a href="http://wiki.audacityteam.org/wiki/Category:Tutorial">Tutorials</a> and <a href="http://wiki.audacityteam.org/wiki/Category:Tips">Tips</a> on the <a href="http://wiki.audacityteam.org/wiki">Audacity Wiki</a>. All these resources are searchable using the search box top right of this page.')?></p>
 <p>
 <?php echo _('If you still need help, expert assistance is available on the');?>
   <a href="http://forum.audacityteam.org/">
@@ -48,13 +48,13 @@
 <p>
 <?php
    // i18n-hint: the encoding inside the <a href> tag between the two 
-   // "echo" strings obscures the e-mail address from (at least some) 
+   // "echo" strings obscures the email address from (at least some) 
    // harvesting bots. Please translate the strings above and below
    // the <a href> tag, and ignore the line with the <a href> tag itself.   
    echo _('You can ')?>
    <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#102;&#101;&#101;&#100;&#x62;&#97;&#99;&#107;&#x40;&#97;&#x75;&#x64;&#97;&#x63;&#105;&#116;&#x79;&#116;&#101;&#97;&#x6d;&#46;&#111;&#114;&#x67;"> 
 <?php
-   echo _('e-mail us</a> about any Audacity matter, but <b>not for technical support</b> - this is provided on the <a href="http://forum.audacityteam.org/">Audacity Forum</a>. Please write in <b>English language only.</b> Please tell us your experiences of the Audacity program, documentation or web site. We particularly welcome the following:</p>
+   echo _('email us</a> about any Audacity matter, but <b>not for technical support</b> - this is provided on the <a href="http://forum.audacityteam.org/">Audacity Forum</a>. Please write in <b>English language only.</b> Please tell us your experiences of the Audacity program, documentation or web site. We particularly welcome the following:</p>
 
 <p>
 <ul>

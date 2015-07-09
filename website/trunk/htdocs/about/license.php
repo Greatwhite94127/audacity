@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2004 Matt Brubeck
- * Copyright 2006 - 12 Dominic Mazzoni,Vaughan Johnson, Gale Andrews
+ * Copyright 2006 - 15 Dominic Mazzoni,Vaughan Johnson, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -42,7 +42,7 @@ printf (_('You may also copy, distribute, modify, and/or resell Audacity, under 
    echo _('If you have questions, please ');?>
    <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#x67;&#97;&#x6c;&#x65;&#64;&#97;&#117;&#100;&#x61;&#99;&#x69;&#x74;&#x79;&#x74;&#x65;&#x61;&#109;&#x2e;&#111;&#x72;&#103;&#x3f;&#x73;&#x75;&#x62;&#106;&#x65;&#x63;&#116;&#x3d;&#x4c;&#105;&#99;&#101;&#110;&#x73;&#105;&#110;&#103;&#x20;&#69;&#x6e;&#113;&#117;&#105;&#x72;&#x79;">
 <?php
-   echo _('e-mail us.');?>
+   echo _('email us.');?>
    </a>
 </p>
 
@@ -56,7 +56,7 @@ printf (_('You may also copy, distribute, modify, and/or resell Audacity, under 
    echo _('If you adhere to these, please ');?>
    <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#103;&#97;&#108;&#101;&#64;&#97;&#117;&#x64;&#97;&#99;&#105;&#116;&#121;&#x74;&#x65;&#97;&#x6d;&#x2e;&#111;&#x72;&#x67;&#63;&#x73;&#x75;&#x62;&#106;&#101;&#99;&#116;&#x3d;&#66;&#x75;&#110;&#x64;&#108;&#101;&#x72;&#x73;&#x20;&#80;&#97;&#103;&#101;&#32;&#x45;&#x6e;&#113;&#117;&#105;&#x72;&#121;">
 <?php
-   echo _('e-mail us</a> for possible inclusion on our <a href="../download/bundlers">Vendors and Distributors of Audacity</a> page.');?>
+   echo _('email us</a> for possible inclusion on our <a href="../download/bundlers">Vendors and Distributors of Audacity</a> page.');?>
 </p>
 
 <?php
@@ -119,7 +119,7 @@ echo _('<h4>For those wishing to resell Audacity, or a rebranded version of it:<
    echo _('If you are reselling Audacity exactly as obtained from us and have questions about this, please ');?>
    <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#103;&#97;&#108;&#x65;&#x40;&#x61;&#x75;&#100;&#97;&#99;&#105;&#x74;&#x79;&#x74;&#x65;&#x61;&#x6d;&#46;&#111;&#x72;&#x67;&#x3f;&#x73;&#x75;&#x62;&#x6a;&#101;&#x63;&#116;&#x3d;&#82;&#x65;&#x73;&#x65;&#108;&#108;&#x65;&#x72;&#115;&#x20;&#x45;&#x6e;&#x71;&#117;&#105;&#114;&#x79;">
 <?php
-   echo _('e-mail us</a>.');
+   echo _('email us</a>.');
 
 echo _('<li>Please read these <a href="http://audacityteam.org/wiki/index.php?title=AudacityVendors#General_Advice">additional guidelines for resellers</a> on the <a href="http://audacityteam.org/wiki">Audacity Wiki</a>.</li>
   </ol>
