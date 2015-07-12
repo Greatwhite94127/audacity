@@ -23,22 +23,6 @@ printf(_('We are grateful that volunteers translate Audacity into many different
 <ul>
   <li><a href="https://lists.sourceforge.net/lists/listinfo/audacity-translation"><?=_("Mailing list and archives")?></a></li>
   <li><a href="http://wiki.audacityteam.org/index.php?title=Translating_Audacity"> <?=_("Translating Audacity</a> on the <a href=\"http://wiki.audacityteam.org/index.php\">Audacity Wiki</a>.")?></li>  
-  <li><a href="../locale/audacity.pot"><?php
-		// i18n-hint: The three numbers will be year, month, day. Remember you
-		// can re-order the numbers if you want to - to get Day, Month, Year,
-		// translate the values as %4$02d/%3$02d/%2$04d. The string (%s) inserts
-		// a html tag to end the link, and is not visible.
-	printf(_("Latest audacity.pot file%s (last updated %04d/%02d/%02d)"), 
-		'</a>', $prog_year, $prog_month, $prog_day);
-?></a></li>
-  <li><a href="../locale/audacity_website.pot"><?php
-		// i18n-hint: The three numbers will be year, month, day. Remember you
-		// can re-order the numbers if you want to - to get Day, Month, Year,
-		// translate the values as %4$02d/%3$02d/%2$04d. The string (%s) inserts
-		// a html tag to end the link, and is not visible.
-   printf(_("Latest audacity_website.pot file%s (last updated %04d/%02d/%02d)"),
-		'</a>', $web_year, $web_month, $web_day);
-?></a></li>
   <li><a href="http://wxwidgets.org/i18n.php"><?=_("wxWidgets i18n")?></a></li>
   <li><a href="http://manual.audacityteam.org/index.php?title=Main_Page"><?=_("Audacity Manual</a> - The Audacity Manual also requires translating. This is done online using wiki software. To create an account and start translating, please contact")?> 
 <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#103;&#x61;&#x6c;&#101;&#x40;&#x61;&#x75;&#x64;&#x61;&#x63;&#105;&#x74;&#x79;&#x74;&#x65;&#97;&#109;&#46;&#111;&#114;&#x67;&#x3f;&#115;&#x75;&#x62;&#106;&#101;&#x63;&#x74;&#61;&#x4d;&#x61;&#x6e;&#x75;&#x61;&#x6c;&#95;&#87;&#105;&#107;&#105;&#95;&#97;&#x63;&#99;&#x6f;&#117;&#110;&#116;">Gale</a>.</li>  
@@ -47,17 +31,16 @@ printf(_('We are grateful that volunteers translate Audacity into many different
 <?php
   // i18n-hint: These instructions are for translators only, so you may
   // leave them untranslated if you like.
-   printf(_('<h3>Translation Instructions (software and web site)</h3>
+   printf(_('<h3>Translation Instructions (software)</h3>
 
-<p>Normally there will already be a translation for your language of the Audacity software or web site, but often it needs to be updated for the latest changes. <b>To update an existing translation</b>, use the links below to download the .po file for your language:</p>
+<p>Normally there will already be a translation for your language of the Audacity software, but often it needs to be updated for the latest changes. <b>To update an existing translation</b>, use the link below to download the .po file for your language:</p>
 <ul>
   <li><a href="%s">Audacity translations</a></li>
-  <li><a href="%s">Audacity web site translations</a></li>
 </ul>
 
-<p>After clicking either link above, click on the link for the .po file for your language. On the page you come to, scroll down to the blue "File info" panel on the right, then right-click or control-click over the "View raw file" link and "save target" or "save link as" to download the .po file.</p> 
+<p>After clicking the link above, click on the link for the .po file for your language. On the page you come to, right click "Raw" and then "save target" or "save link as" to download the .po file.</p> 
 
-<p><b>If there is no .po file for your language</b>, create one by downloading the latest "audacity.pot" or "audacity_website.pot" file under "Resources for Translators" above. (If the links only produce text in the browser, right-click or control-click and save the target or link). Rename the .pot to "audacity.po" (or "audacity_website.po" for web site translation) before starting your translation.</p>
+<p><b>If there is no .po file for your language</b>, create one by downloading the latest "audacity.pot" file instead (it\'s in the same location).  Rename the .pot to "audacity.po" before starting your translation.</p>
 
 <p><b>Programs for creating and editing .po files:</b></p>
 <ul>
@@ -86,7 +69,7 @@ printf(_('We are grateful that volunteers translate Audacity into many different
 <ul>
   <li><b>To submit a translation</b>, please send the completed .po file to the audacity-translation mailing list. A member of Audacity Team will commit the file and send a message to the list confirming this.</li> 
   <li>Please read <a href="http://wiki.audacityteam.org/index.php?title=Translating_Audacity">Translating Audacity</a> for more tips on translating the Audacity source code, and to learn how the Audacity software and web site are translated.</li>
-</ul>'), "http://code.google.com/p/audacity/source/browse/audacity-src/trunk/locale", "http://code.google.com/p/audacity/source/browse/website/trunk/htdocs/locale");
+</ul>'), "https://github.com/audacity/audacity/tree/master/locale", "https://github.com/audacity/audacity/tree/master/locale");
 
   include "../include/footer.inc.php";
 ?>

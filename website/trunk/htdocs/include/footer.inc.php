@@ -19,8 +19,13 @@
     | <a href="<?=$sitePath?>/site-map"><?=_("Site Map")?></a>
   </p>
   <p>
-	  <SCRIPT type='text/javascript' language='JavaScript' src='http://www.ohloh.net/projects/59/badge_js'></SCRIPT>
+    <SCRIPT type='text/javascript' language='JavaScript' src='http://www.ohloh.net/projects/59/badge_js'></SCRIPT>
+    <a href="https://plus.google.com/108226440145001840649?prsrc=3" style="text-decoration:none;">
+    &nbsp;&nbsp;&nbsp;
+    <img src="https://ssl.gstatic.com/images/icons/gplus-32.png" alt="" style="border:0;width:32px;height:32px;"/>
+    </a>      
     <a title="<?=_("This site is under a Creative Commons Attribution 3.0 License.")?>" href="http://creativecommons.org/licenses/by/3.0/"><img alt="<?=_("Creative Commons Attribution License")?>" src="<?=$sitePath?>/images/creative-commons3.png"></a>
+  
   </p>
   <h2><?=_("View this page in a different language")?></h2>
   <p>

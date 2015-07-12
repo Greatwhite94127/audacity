@@ -39,7 +39,7 @@
   </dd>
 
   <dt><a href="translation"><?=_("Translators")?></a></dt>
-  <dd><p><?=_("If you are fluent in both English and another language, you can help translate the Audacity software, website, and <a href=\"http://manual.audacityteam.org/index.php?title=Main_Page\">Manual</a>. We also need people to help provide support for Audacity in different languages.")?></p></dd>
+  <dd><p><?=_("If you are fluent in both English and another language, you can help translate the Audacity software and <a href=\"http://manual.audacityteam.org/index.php?title=Main_Page\">Manual</a>. We also need people to help provide support for Audacity in different languages.")?></p></dd>
 </dl>
 
 <?=_("We also welcome <a href=\"../donate/\">donations</a> to support Audacity development.")?>
