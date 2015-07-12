@@ -23,6 +23,37 @@ function most_recent_news_item() {
 // (most recent first).
 
 add_news_item(
+  "July 15, 2015",
+  "2.1.1-release",
+  _("Audacity 2.1.1 Released"),
+  _("
+<p>
+<a href=\"/download\">Audacity 2.1.1</a> replaces all previous versions. 
+</p>
+
+<p>
+  <ul>
+    <li>The most visible new feature is 
+    <a href=\"http://manual.audacityteam.org/o/man/Scrubbing_and_Seeking.html\">
+       scrubbing and seeking
+    </a>, including backwards play.</li>
+    <li>Also new, you can add and remove effects from the generate and effects menus.</li>
+    <li>Over 50 bugs have been addressed with this release.  Audacity now works faster with longer projects, projects of about 2 hours duration, than it did before.</li>
+    <li> Effects now have presets.  A new Limiter replaces the Hard Limiter effect.  There's a new version of Vocal Removal, a cross-fade effect and 'classic filters' available as an opt-in effect.</li>
+  </ul>
+</p>
+
+<p>
+  There's also been lots of work behind the scenes, including VI usability enhancements and upgrade to new libraries.  Fuller details on the changes since 2.1.0 can be found in the 
+    <a href=\"http://wiki.audacityteam.org/wiki/Release_Notes_2.1.1.html\">
+       2.1.1 Release Notes.
+    </a>
+</p>
+
+"));
+
+
+add_news_item(
   "March 29, 2015",
   	"2.1.0-release",
   _("Audacity 2.1.0 Released"),
