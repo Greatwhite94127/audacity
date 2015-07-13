@@ -19,15 +19,15 @@
 <p><?=_('Join the <a href="http://lists.sourceforge.net/lists/listinfo/audacity-devel">audacity-devel</a> mailing list to discuss current and future development, or to get help modifying the Audacity source code.')?></p>
 
 <h3 id="git"><?=_('Git')?></h3>
-<p><?=_('You can get the latest Audacity code from our <a href="http://github.com/audacity/audacity">Git repository</a>.')?>
+<p><?=_('You can get the latest Audacity code from our <a href="https://github.com/audacity/audacity">Git repository</a>.')?>
 
 <ul>
   <li><p><?=_('Type this at the command line to make a local copy of the source code repository from GitHub:')?></p>
-  <p><kbd>git clone http://github.com/audacity/audacity</kbd></p>
+  <p><kbd>git clone https://github.com/audacity/audacity</kbd></p>
 </ul>
 </p>
 
-<p><?php printf(_('You can also look at work in progress online at http://github.com/audacity/audacity/network'))?>
+<p><?php printf(_('You can also look at our Git <a href="https://github.com/audacity/audacity/network">work in progress</a>.'))?>
 </p>
 
 
@@ -57,8 +57,8 @@
 <p><?=_('The Audacity developers use bugzilla to track bugs and enhancements. To find issues to work on, please view our categorized <a href="http://wiki.audacityteam.org/wiki/Bug_Lists">Bug Lists</a>.')?></p>
 <p><?=_('If you are a user reporting a new bug, please email our <a href="../contact#feedback">feedback address</a>.')?></p>
 
-<h3><?=_('Submitting Patches')?></h3>
-<p><?=_('We welcome patches from developers. Please see our <a href="http://wiki.audacityteam.org/wiki/SubmittingPatches">Submitting Patches</a> page on the <a href="http://wiki.audacityteam.org/wiki">Audacity Wiki</a>.')?></p>
+<h3><?=_('Git Pull Requests and Patches')?></h3>
+<p><?=_('We welcome Git pull requests from developers. Also see <a href="http://wiki.audacityteam.org/wiki/SubmittingPatches">Submitting Patches</a> on the <a href="http://wiki.audacityteam.org/wiki">Audacity Wiki</a> for an alternative way of offering us code improvements.')?></p>
 
 <?php
   include "../include/footer.inc.php";

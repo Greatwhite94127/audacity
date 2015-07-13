@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2002-2014 Dominic Mazzoni, Matt Brubeck, Gale Andrews
+ * Copyright 2002-2015 Dominic Mazzoni, Matt Brubeck, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -17,7 +17,7 @@
   // i18n-hint: The two %s will be replaced by HTML tags to make the text
   // inbetween into a link to the mailing list page. They are thus invisible in
   // the final text.  
-printf(_('We are grateful that volunteers translate Audacity into many different languages. If you would like to help, please join the %saudacity-translation mailing list%s, and read instructions below.'), '<a href="https://lists.sourceforge.net/lists/listinfo/audacity-translation">', '</a>'); ?></p>
+printf(_('We are grateful that volunteers translate Audacity into many different languages. If you would like to help, please join the %saudacity-translation mailing list%s, and read the instructions below.'), '<a href="https://lists.sourceforge.net/lists/listinfo/audacity-translation">', '</a>'); ?></p>
 
 <h3><?=_("Resources for Translators")?></h3>
 <ul>
@@ -38,7 +38,7 @@ printf(_('We are grateful that volunteers translate Audacity into many different
   <li><a href="%s">Audacity translations</a></li>
 </ul>
 
-<p>After clicking the link above, click on the link for the .po file for your language. On the page you come to, right click "Raw" and then "save target" or "save link as" to download the .po file.</p> 
+<p>After clicking the link above, click on the link for the .po file for your language. On the page you come to, right-click "Raw" and then "save target" or "save link as" to download the .po file.</p> 
 
 <p><b>If there is no .po file for your language</b>, create one by downloading the latest "audacity.pot" file instead (it\'s in the same location).  Rename the .pot to "audacity.po" before starting your translation.</p>
 
@@ -53,7 +53,7 @@ printf(_('We are grateful that volunteers translate Audacity into many different
 <p><b>Basic usage of poEdit:</b><p>
 <ul>
   <li>For a newly created .po file, set its properties by clicking <b>Catalog > Settings</b> and filling in the required information. Set the target language in the <b>Language</b> menu. Make sure to set the "charset" option correctly, otherwise poEdit will not save any translations with non-English characters. </li>
-  <li>For an existing .po file, download "audacity.pot" or "audacity_website.pot" from "Resources for Translators" above. In poEdit, click <b>Catalog > Update from POT file</b> to update your .po file with the latest strings from the downloaded .pot file. Then translate the .po file (<b>not</b> the .pot file).</li>     
+  <li>For an existing .po file, download "audacity.pot" as above. In poEdit, click <b>Catalog > Update from POT file</b> to update your .po file with the latest strings from the downloaded .pot file. Then translate the .po file (<b>not</b> the .pot file).</li>     
   <li>When you File > Save, poEdit saves the .po file, plus a .mo file for use in Audacity.</li>
 </ul>
 
