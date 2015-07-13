@@ -52,7 +52,7 @@ echo _('Please note that we cannot accept other forms of payment such as checks 
 <h2><?=$pageTitle?></h2>
 
 <p>
-  <?=_('Audacity raises money via donations, <a href="http://audacityteam.org/sponsor.php">sponsorships</a> and <a href="../contact/privacy#advertising">advertisements</a> on our web pages.')?>
+  <?=_('Audacity raises money via donations, sponsorships and <a href="../contact/privacy#advertising">advertisements</a> on our web pages.')?>
 </p>
 
 <p>

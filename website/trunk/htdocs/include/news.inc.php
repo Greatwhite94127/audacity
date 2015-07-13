@@ -37,8 +37,9 @@ add_news_item(
     <a href=\"http://manual.audacityteam.org/o/man/scrubbing_and_seeking.html\">
        scrubbing and seeking
     </a>, including backwards play.</li>
-    <li>Also new, you can add and remove effects from the generate and effects menus.</li>
-    <li>Over 50 bugs have been addressed with this release.  Audacity now works faster with longer projects, audio of about 2 hours duration, than it did before.</li>
+    <li>You can now install plugins without restarting Audacity or add and remove any effect or generator
+    from the menus.</li>
+    <li>Over 50 bugs have been addressed with this release.  Edits are now processed much faster in longer projects of a few hours duration.</li>
     <li> Effects now have presets.  A new Limiter replaces the Hard Limiter effect.  There's a new version of Vocal Removal, a cross-fade effect for combining clips on the same track and 'classic filters' available as an opt-in effect.</li>
   </ul>
 </p>
