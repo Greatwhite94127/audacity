@@ -45,7 +45,7 @@
 <p><?=_('On Mac OS X only, Audacity loads <a href="http://manual.audacityteam.org/o/man/effect_menu.html#Audio_Unit_effects">Audio Unit</a> plug-ins from system plug-in directories. Audacity will not recognize any Audio Units in its own "plug-ins" folder.')?></p>  
 
 <h3><?=_("Module Plug-Ins")?></h3>
-<p><?=_('Experimental <a href="http://manual.audacityteam.org/o/man/Module_Prefere_menu.html">modules</a> offer a further way to extend Audacity with new features.')?></p>  
+<p><?=_('Experimental <a href="http://manual.audacityteam.org/o/man/modules_preferences.html">modules</a> offer a further way to extend Audacity with new features.')?></p>  
 
 <h3><?=_("Libraries")?></h3>
 <p><?=_('The <b>LAME MP3 encoding</b> library allows Audacity to export audio in the popular <a href="http://wiki.audacityteam.org/index.php?title=MP3">MP3</a> format. To install the LAME library, please read our <a href="http://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#lame">LAME FAQ</a>.')?></p>    

@@ -99,7 +99,7 @@
 <ul>
   <li>Support for <a href="http://www.ladspa.org/">LADSPA</a>, <a href="http://lv2plug.in/">LV2</a>, <a href="http://wiki.audacityteam.org/wiki/Download_Nyquist_Plug-ins">Nyquist</a>, <a href="http://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#vst_install">VST</a> and <a href="http://manual.audacityteam.org/o/man/effect_menu.html#Audio_Unit_effects">Audio Unit</a> effect plug-ins.</li>
   <li>Effects written in the <a href="../help/nyquist">Nyquist programming language</a> can be easily modified in a text editor - or you can even write your own plug-in.</li>
-  <li>Experimental <a href="http://manual.audacityteam.org/o/man/Modules_Preferences.html">modules</a> that extend the functionality of Audacity. </li>
+  <li>Experimental <a href="http://manual.audacityteam.org/o/man/modules_preferences.html">modules</a> that extend the functionality of Audacity. </li>
 </ul>');
 
   echo _('<h3>Analysis</h3>

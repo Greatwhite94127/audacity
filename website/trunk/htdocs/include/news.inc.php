@@ -34,7 +34,7 @@ add_news_item(
 <p>
   <ul>
     <li>The most visible new feature is 
-    <a href=\"http://manual.audacityteam.org/o/man/Scrubbing_and_Seeking.html\">
+    <a href=\"http://manual.audacityteam.org/o/man/scrubbing_and_seeking.html\">
        scrubbing and seeking
     </a>, including backwards play.</li>
     <li>Also new, you can add and remove effects from the generate and effects menus.</li>
