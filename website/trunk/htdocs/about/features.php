@@ -56,7 +56,8 @@
   echo _('<h3 id="edit">Editing</h3>
 <ul>
   <li>Easy editing with Cut, Copy, Paste and Delete.</li>
-  <li>Unlimited sequential Undo (and Redo) to go back any number of steps.</li>
+  <li>Find the spot to edit easily with <a href="http://manual.audacityteam.org/o/man/scrubbing_and_seeking.html">scrubbing and seeking</a> or <a href="http://manual.audacityteam.org/o/man/timeline.html#tqp">Timeline Quick-Play</a>.
+  <li>Unlimited sequential Undo (and Redo) in the session to go back any number of steps.</li>
   <li>Edit and mix large numbers of tracks.</li>
   <li>Multiple <a href="http://manual.audacityteam.org/help/manual/man/audacity_tracks_and_clips.html">clips</a> are allowed per track.</li>
   <li><a href="http://manual.audacityteam.org/o/man/label_tracks.html">Label tracks</a> with selectable <a href="http://manual.audacityteam.org/o/man/sync_locked_track_groups.html">Sync-Lock Tracks</a> feature for keeping tracks and labels synchronized.</li>
@@ -74,17 +75,19 @@
 
   echo _('<h3 id="effects">Effects</h3>
 <ul>
-  <li><a href="http://manual.audacityteam.org/o/man/real_time_preview_of_effects.html">Real-time preview</a> of LADSPA, VST and Audio Unit (OS X) effects. 
+  <li><a href="http://manual.audacityteam.org/o/man/real_time_preview_of_effects.html">Real-time preview</a> of LADSPA, LV2, VST and Audio Unit (OS X) effects. 
+  <li>Plug-in Manager handles plug-in installation and addition/removal of effects and generators from the menus.
   <li>Change the pitch without altering the tempo (or vice-versa).</li>
   <li>Remove static, hiss, hum or other constant background noises.</li>
   <li>Alter frequencies with Equalization, Bass and Treble, High/Low Pass and Notch Filter effects.</li>
-  <li>Filter a <a href="http://manual.audacityteam.org/o/man/spectral_selection.html">frequency selection</a> made in Spectrogram views or <a href="http://manual.audacityteam.org/o/man/spectral_selection_toolbar.html">Spectral Selection Toolbar</a> using spectral edit effects.</li>   
-  <li>Adjust volume with Compressor, Amplify, Normalize, Fade In/Fade Out, Crossfade, and Adjustable Fade effects.
-  <li><a href="http://manual.audacityteam.org/help/manual/man/vocal_remover.html">Remove Vocals</a> from suitable stereo tracks.
+  <li>Filter a <a href="http://manual.audacityteam.org/o/man/spectral_selection.html">frequency selection</a> made in Spectral Selection views or <a href="http://manual.audacityteam.org/o/man/spectral_selection_toolbar.html">Spectral Selection Toolbar</a> using spectral edit effects.</li>   
+  <li>Adjust volume with Compressor, Amplify, Normalize, Fade In/Fade Out, Crossfade Clips, Crossfade Tracks and Adjustable Fade effects.
+  <li><a href="http://manual.audacityteam.org/o/man/vocal_reduction_and_isolation.html">Reduce or Isolate Vocals</a> given suitable stereo tracks (vocal reduction produces a stereo result).
   <li>Create voice-overs for podcasts or DJ sets using <a href="http://manual.audacityteam.org/help/manual/man/auto_duck.html">Auto Duck</a> effect.
   <li>Other built-in effects include:
     <ul>
       <li>Echo</li>
+      <li>Limiter</li>
       <li>Paulstretch (extreme stretch)</li>
       <li>Phaser</li>
       <li>Reverb</li>

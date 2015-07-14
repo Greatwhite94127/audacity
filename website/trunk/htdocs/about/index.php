@@ -21,7 +21,8 @@
   <li>Edit WAV, AIFF, FLAC, MP2, MP3 or Ogg Vorbis sound files.</li>
   <li>AC3, M4A/M4R (AAC), WMA and other formats supported using optional libraries.</li>
   <li>Cut, copy, <a href="http://manual.audacityteam.org/o/man/faq_editing.html#join">splice</a> or <a href="http://manual.audacityteam.org/o/man/mixing.html">mix</a> sounds together.</li>
-  <li>Numerous effects including <a href="http://manual.audacityteam.org/o/man/index_of_effects_generators_and_analyzers.html#Make_the_sound_faster.2C_slower.2C_lower_pitched_or_higher_pitched">change the speed or pitch</a> of a recording.</li>
+  <li>Numerous effects including <a href="http://manual.audacityteam.org/o/man/index_of_effects_generators_and_analyzers.html#Make_the_sound_faster.2C_slower.2C_lower_pitched_or_higher_pitched">change speed or pitch</a> and <a href="http://manual.audacityteam.org/o/man/vocal_reduction_and_isolation.html">vocal reduction or isolation</a> (given suitable stereo tracks).
+</li>
   <li>And more! See the complete <a href="features">list of features</a>.</li>
 </ul>');
 
