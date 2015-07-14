@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2004 Matt Brubeck
- * Copyright 2007 - 13 Gale Andrews, Vaughan Johnson
+ * Copyright 2007 - 15 Gale Andrews, Vaughan Johnson
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -16,13 +16,26 @@
 <h2><?=$pageTitle?></h2>
 
 <div class="advice">
-<?=_('These are legacy versions of Audacity for Windows 98/ME/2000/XP.<p><a href="http://wiki.audacityteam.org/wiki/Windows_Vista_OS">Windows Vista</a><b>,</b> <a href="http://wiki.audacityteam.org/wiki/Windows_7_OS">Windows 7</a> <b>and</b> <a href="http://wiki.audacityteam.org/wiki/Windows_8_OS">Windows 8</a> <b>are not supported in any Audacity versions on this page</b>. Please use <a href="/download/windows">the latest Windows version</a> for Vista, 7 and 8.</p>')?>
+<?=_('These are legacy versions of Audacity for <b>Windows 98/ME/2000</b>, for <b>XP without the final Service Pack</b> and for <b>legacy hardware that does not support <a href="http://en.wikipedia.org/wiki/SSE2">SSE2</b></a>.
+<br><br>
+Please use the <a href="windows">latest Audacity version</a><b> in all other cases.</b>')?>
 </div>
 
 <h3><?=_("Download")?></h3>
 <p>
 <a href="#sysreq"><?=_("System Requirements")?></a>
 </p>
+
+<h4><?=_("Audacity 2.0.6 for Windows 2000")?></h4>
+<p>
+  <?=_("Version 2.0.6 of Audacity is the final version for Windows 2000, for XP without the latest Service Pack and for non-SSE 2 hardware.")?>
+</p>
+
+<ul>
+  <li><p><?=_('<a href="http://www.oldfoss.com/Audacity/download/audacity-win-2.0.6.exe">Audacity 2.0.6 installer</a> (.exe file, 21.8 MB, including help files) for <b>Windows 2000</b>')?></p></li>
+  <li><p><?=_('<a href="http://www.oldfoss.com/Audacity/download/audacity-win-2.0.6.zip">Audacity 2.0.6 zip file</a> (8.5 MB) for <b>Windows 2000</b> - Use this if you want a smaller download (without help files), or cannot run the installer because of restricted permissions.')?></p></li>
+</ul>
+
 <h4><?=_("Audacity 2.0.0 for Windows 98/ME")?></h4>
 <p>
   <?=_("Version 2.0.0 of Audacity is the final, recommended version for Windows 98/ME.")?>
@@ -31,15 +44,6 @@
 <ul>
   <li><p><?=_('<a href="http://audacity.googlecode.com/files/audacity-win-2.0-ansi.exe">Audacity 2.0.0 installer</a> (.exe file, 19.2 MB, including help files) for <b>Windows 98/ME</b>')?></p></li>
   <li><p><?=_('<a href="http://audacity.googlecode.com/files/audacity-win-2.0-ansi.zip">Audacity 2.0.0 zip file</a> (7.8 MB) for <b>Windows 98/ME</b> - Use this if you want a smaller download (without help files), or cannot run the installer because of restricted permissions.')?></p></li>
-</ul>
-
-<h4>Audacity 1.2.6</h4>
-<p>
-  <?=_('Please consider using 2.0.0 above for Windows 98/ME or the <a href="/download/windows">latest 2.0.x version</a> for Windows 2000/XP.')?>
-</p>
-<ul>
-  <li><p><?php printf(_('<a href="%s">Audacity %s installer</a> (.exe file, %.1lf MB) for <b>Windows 98/ME/2000/XP</b>'), download_url($win_exe_url), win_exe_version, win_exe_size)?></p></li>
-  <li><p><?php printf(_('<a href="%s">Audacity %s zip file</a> (%.1lf MB) for <b>Windows 98/ME/2000/XP</b> - If you cannot run the installer because of restricted permissions, download and unzip this file instead.'), download_url($win_zip_url), win_zip_version, win_zip_size)?></p></li>
 </ul>
 
 <h3 id="optional"><?=_("Optional Downloads")?></h3>
@@ -74,7 +78,7 @@
 
 <h3 id="sysreq"><?=_("System Requirements")?></h3>
 <p>
-  <?=_("Windows 95 and NT are not supported. Windows Vista, Windows 7 and Windows 8 require <a href=\"windows\">the latest version of Audacity</a>.")?>
+  <?=_("Windows 95 and NT are not supported. Windows Vista, Windows 7 and Windows 8 require the <a href=\"windows\">latest version of Audacity</a>.")?>
 </p>
 
 <p>
@@ -101,7 +105,7 @@
 
 <p>&nbsp;</p>
 <p>
-  <?=_("Generally, Audacity works best on computers meeting more than the minimum requirements in the table above. Where Audacity is to be used for lengthy multi-track projects, we recommend using Windows XP running on a machine of substantially higher specification than the minimum stated above.")?>
+  <?=_("Generally, Audacity works best on computers meeting more than the minimum requirements in the table above. Where Audacity is to be used for lengthy multi-track projects, we recommend a machine of substantially higher specification than the minimum stated above. <b>Please be aware of the extreme risks of running less than completely patched XP on a computer  connected to the internet.</b>")?>
 </p>
 
 
