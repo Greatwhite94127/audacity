@@ -36,7 +36,12 @@ add_news_item(
     <li>The most visible new feature is 
     <a href=\"http://manual.audacityteam.org/o/man/scrubbing_and_seeking.html\">
        scrubbing and seeking
-    </a>, including backwards play.</li>
+    </a>, including backwards play.
+    Updates to 
+    <a href=\"http://manual.audacityteam.org/o/man/Timeline#tqp Timeline\">
+       Quick-Play
+    </a> also help with finding a precise position in the audio.
+    </li>
     <li>You can now install plug-ins without restarting Audacity or add and remove any effect or generator
     from the menus.</li>
     <li>Over 50 bugs have been addressed with this release.  Edits are now processed much faster in longer projects of a few hours duration.</li>
