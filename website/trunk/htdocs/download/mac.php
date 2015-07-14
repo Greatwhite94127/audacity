@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2004 - 2014
+ * Copyright 2004 - 2015
  * Matt Brubeck
  * Dominic Mazzoni
  * Richard Ash
@@ -51,7 +51,7 @@ in /Applications or from your chosen location.")?></li>
 
 <div class="advice">
 <?=_('<b>Known Issue:</b> Security settings on OS X 10.7 or later may block Audacity being 
-launched. Most users on OS X 10.9.5 will experience this, due to changes made by Apple.')?>
+launched. Most users on OS X 10.9.5 and later will experience this, due to changes made by Apple.')?>
 <p><ul><li>
 <?=_('To permanently enable Audacity launch, right-click or control-click on the Audacity 
 application in Finder, choose "Open", then in the dialog box that appears, choose "Open".')?>
@@ -108,10 +108,11 @@ application in Finder, choose "Open", then in the dialog box that appears, choos
 <h3 id="sysreq"><?=_("System Requirements")?></h3>
 <p>
 <div class="advice">
-<b><?=_("Audacity for Mac is released as a Universal Binary. It runs on <b>OS X 10.4 to 10.10.x</b>.")?></b>
-<br>
-<b><?=_("Audacity runs best with at least 1 GB RAM and a 1 GHz processor (2 GB RAM/2 GHz on OS X 10.7 or later).")?></b> 
-<p><?=_("For lengthy multi-track projects, we recommend a minimum of 2 GB RAM and 2 GHz processor (4 GB RAM on OS X 10.7 or later).")?></p>
+<?=_("Audacity for Mac is a Universal Binary for <b>OS X 10.5 to 10.10.x</b>. Audacity runs best with at least <b>1 GB RAM and a 1 GHz processor (2 GB RAM/2 GHz on OS X 10.7 or later).</b>")?> 
+<br><br><?=_("For lengthy multi-track projects, we recommend a minimum of 2 GB RAM and 2 GHz processor (4 GB RAM on OS X 10.7 or later).")?>
+<p><ul><li><?=_("The current 2.1.1 release is expected to be the final release for PPC Macs.")?>
+</ul></p>
+
 </div>
 </p>
 

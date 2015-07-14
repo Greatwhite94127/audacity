@@ -2,7 +2,7 @@
 /*
  * Copyright 2004 Matt Brubeck
  * Richard Ash 2006
- * Gale Andrews 2009-2012
+ * Gale Andrews 2009-2015
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -17,12 +17,13 @@
 <h2><?=$pageTitle?></h2>
 
 <div class="advice">
-<?=_('<b>Mac OS X 10.4 and later are not supported in Audacity 1.2. Please use</b> <a href="../download/mac">the latest Mac version</a><b> for these operating systems.</b>')?>
+<?=_('<b>These are legacy downloads. Please use the </b> <a href="../download/mac">latest Audacity version</a><b> for Mac OS X 10.5 to 10.10.x.</b>')?>
 </div>
 
 <h3><?=_("Download")?></h3>
 <p><a href="#sysreq"><?=_("System Requirements")?></a></p>
 <ul>
+  <li><p><?=_('For Mac OS X 10.4 (<b>Universal binary</b>): <a href="http://www.oldfoss.com/Audacity/download/audacity-macosx-ub-2.0.6.dmg">Audacity 2.0.6</a> (.dmg file, 30.9 MB) - use this also on PPC Macs on OS X 10.5 if you want to use Audio Units in Audacity')?></p></li>
   <li><p><?php printf(_('For Mac OS X 10.0 to 10.3 (<b>Intel</b>): <a href="%s">Audacity %s</a> (.dmg file, %.1lf MB)'), download_url($macosx_intel_url), macosx_intel_version, macosx_intel_size)?></p></li>
   <li><p><?php printf(_('For Mac OS X 10.0 to 10.3 (<b>PPC</b>): <a href="%s">Audacity %s</a> (.dmg file, %.1lf MB)'), download_url ($macosx_url), macosx_version, macosx_size)?></p></li>
   <li><p><?php printf(_('For Mac OS 9: <a href="%s">Audacity %s</a> (.sit file, %.1lf MB)'), download_url($mac_classic_url), mac_classic_version, mac_classic_size)?></p></li>
@@ -59,9 +60,10 @@
 </ul>
 
 <h3 id="sysreq"><?=_("System Requirements")?></h3>
-<?=_("Audacity 2.0 series requires Mac OS X 10.4 or later.")?>
+<?=_('The <a href="../download/mac">latest Audacity version</a> requires Mac OS X 10.5 or later')?>
 <p>
 <ul>
+<li><?=_("Audacity 2.0.6 is a legacy version for Mac OS X 10.4 (Universal binary) only.")?></li>
 <li><?=_("Audacity 1.2.5 is a legacy version for Mac OS X 10.0 to 10.3 (Intel) only.")?></li>
 <li><?=_("Audacity 1.2.6a is a legacy version for Mac OS X 10.0 to 10.3 (PPC) only.")?></li>
 <li><?=_("Audacity 1.0.0 is a legacy version for Mac OS 9 only.")?></li>

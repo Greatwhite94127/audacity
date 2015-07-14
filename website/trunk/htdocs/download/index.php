@@ -52,7 +52,7 @@
         <span class="downloads_smaller">
           <br>
           <img src="../images/download_spacer.png">
-          <?=_("(Universal Binary for Mac OS X 10.4 to 10.10.x)")?>
+          <?=_("(Universal Binary for Mac OS X 10.5 to 10.10.x)")?>
         </span>
       </h3>
 
@@ -90,8 +90,8 @@
 <div class="under_downloads">
   <h3 id="legacy"><?=_("Legacy Downloads")?></h3>
   <ul>
-    <li><p><?=_("For users of <b>Windows 98 and ME</b>, a legacy 2.0.0 version of Audacity is available on the <a href=\"legacy_windows\">Legacy Windows downloads page")?></a>.</p></li>
-    <li><p><?=_("For users of <b>Mac OS 9</b> and <b>Mac OS 10.0 through 10.3</b>, legacy versions of Audacity are available on the <a href=\"legacy_mac\">Legacy Mac downloads page")?></a>.</p></li>
+    <li><p><?=_("For users of <b>Windows 98, ME and 2000</b>, legacy versions of Audacity are available on the <a href=\"legacy_windows\">Legacy Windows downloads page")?></a>.</p></li>
+    <li><p><?=_("For users of <b>Mac OS 9</b> and <b>Mac OS 10.0 through 10.4</b>, legacy versions of Audacity are available on the <a href=\"legacy_mac\">Legacy Mac downloads page")?></a>.</p></li>
   </ul>
 
   <h3><?=_("More Information")?></h3>

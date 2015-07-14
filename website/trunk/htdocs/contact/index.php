@@ -70,7 +70,7 @@
 <p><?=_('<b>Please include the following information.</b> This is important.</p>
 <ol>
   <li><b>The exact three-section version number of Audacity</b> (for example, 2.0.0) - you can check this at Help > About Audacity, or Audacity > About Audacity on Mac</li>
-  <li><b>Your operating system</b> (for example, Windows 7 Service Pack 1 or Intel Mac OS X 10.4)</li>
+  <li><b>Your operating system</b> (for example, Windows 7 Service Pack 1 or Intel Mac OS X 10.9.5)</li>
   <li><b>Details of what you were trying to do</b>, including what steps led to the problem occurring, and the text of any error messages.</li>
 </ol>
 </div>
