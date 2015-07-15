@@ -44,7 +44,7 @@
 </p>
 <p><?=_('Always give plenty of information when asking questions on the Audacity Forum. You can find more help with joining and using the Audacity Forum <a href="http://wiki.audacityteam.org/wiki/Asking_Questions">here</a>.')?></p>
 
-<h3 id="feedback"><?=_('Suggestions, Bug Reports, Feature Requests and Patches')?></h3>
+<h3 id="feedback"><?=_('Suggestions, Bug Reports, Feature Requests and Pull Requests/Patches')?></h3>
 <p>
 <?php
    // i18n-hint: the encoding inside the <a href> tag between the two 
@@ -54,7 +54,7 @@
    echo _('You can ')?>
    <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#102;&#101;&#101;&#100;&#x62;&#97;&#99;&#107;&#x40;&#97;&#x75;&#x64;&#97;&#x63;&#105;&#116;&#x79;&#116;&#101;&#97;&#x6d;&#46;&#111;&#114;&#x67;"> 
 <?php
-   echo _('email us</a> about any Audacity matter, but <b>not for technical support</b> - this is provided on the <a href="http://forum.audacityteam.org/">Audacity Forum</a>. Please write in <b>English language only.</b> Please tell us your experiences of the Audacity program, documentation or web site. We particularly welcome the following:</p>
+   echo _('email us</a> about any Audacity matter, but <b>not for technical support</b> - this is provided on the <a href="http://forum.audacityteam.org/">Audacity Forum</a>. Please write in <b>English language only.</b> Please tell us your experiences of the Audacity program, documentation or website. We particularly welcome the following:</p>
 
 <p>
 <ul>
@@ -72,10 +72,11 @@
   <li><b>The exact three-section version number of Audacity</b> (for example, 2.0.0) - you can check this at Help > About Audacity, or Audacity > About Audacity on Mac</li>
   <li><b>Your operating system</b> (for example, Windows 7 Service Pack 1 or Intel Mac OS X 10.9.5)</li>
   <li><b>Details of what you were trying to do</b>, including what steps led to the problem occurring, and the text of any error messages.</li>
+  <li><b>If possible</b>, please include the "Audacity.zip" file which you can generate for us at Help > <a href="http://manual.audacityteam.org/o/man/help_menu.html#data">Generate Support Data...</a>. If there is a crash, Audacity will normally offer to generate this zip file before exiting.</li>  
 </ol>
 </div>
 
-<p><b>Patches:</b> Code patches to fix problems or enhance features will be gratefully received. Please follow the guidance on the <a href="http://wiki.audacityteam.org/wiki/SubmittingPatches">Submitting Patches</a> page on the <a href="http://wiki.audacityteam.org/">Audacity Wiki</a>.</p>')?>    
+<p><b>Git Pull Requests and Patches:</b> We welcome <a href="https://github.com/audacity/audacity">Git pull requests</a> if you can offer us a fix for a <a href="http://wiki.audacityteam.org/wiki/Bug_Lists">known bug</a> or a <a href="http://wiki.audacityteam.org/wiki/Feature_Requests">new or enhanced feature</a>. Also see <a href="http://wiki.audacityteam.org/wiki/SubmittingPatches">Submitting Patches</a> on <a href="http://wiki.audacityteam.org/">Audacity Wiki</a> for an alternative way of offering code improvements.</b></p>')?>    
 
 <h3><?php echo _('Discussion Lists')?></h3>
 <p><?php echo _('Subscribe to our');?>
