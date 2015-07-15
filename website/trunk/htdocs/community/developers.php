@@ -27,7 +27,7 @@
 </ul>
 </p>
 
-<p><?php printf(_('You can also look at our Git <a href="https://github.com/audacity/audacity/network">work in progress</a>.'))?>
+<p><?php printf(_('Our Git repository has an <a href="https://github.com/audacity/audacity/commits/master.atom">atom feed</a>. You can also look at our Git <a href="https://github.com/audacity/audacity/network">work in progress</a>.'))?>
 </p>
 
 
