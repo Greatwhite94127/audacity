@@ -20,7 +20,7 @@
 
 <h3><?=_("LADSPA Plug-Ins")?></h3>
 <p>
-  <?php printf(_('Audacity has built-in support for LADSPA plug-ins.  These plug-ins are mostly built for Linux, but some are available for other operating systems too.  Audacity includes some sample LADSPA effects. Windows users can install an additional <a href="%s">set of over 90 LADSPA plug-ins</a>.  There is a similar set of LADSPA plug-ins for <a href="%s">Mac</a>. More information and many LADSPA plug-ins for Linux can be found on the <a href="%s">LADSPA web site</a>.'), download_url($ladspa_url), download_url('swh-plugins-mac-0.4.15.zip'), 'http://www.ladspa.org/')?></p>
+  <?php printf(_('Audacity has built-in support for LADSPA plug-ins.  These plug-ins are mostly built for Linux, but some are available for other operating systems too.  Audacity includes some sample LADSPA effects. Windows users can install an additional <a href="%s">set of over 90 LADSPA plug-ins</a>.  There is a similar set of LADSPA plug-ins for <a href="%s">Mac</a>. More information and many LADSPA plug-ins for Linux can be found on the <a href="%s">LADSPA website</a>.'), download_url($ladspa_url), download_url('swh-plugins-mac-0.4.15.zip'), 'http://www.ladspa.org/')?></p>
 
 <h3><?=_("LV2 Plug-Ins")?></h3>
 <p>

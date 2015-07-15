@@ -75,7 +75,7 @@ echo _('<p>Additionally, the name <b>Audacity</b>&reg; is a <b>registered tradem
 
 echo _('<h4 >Updating and Documenting Audacity</h4>
 
-<p>We would appreciate your linking to our web site: <a href="http://audacityteam.org">http://audacityteam.org</a> so your users can download updated versions of Audacity when released. Also, please subscribe to the notifications list at the bottom of <a href="http://audacityteam.org">http://audacityteam.org</a> to ensure you receive advice of and can distribute the latest version of Audacity.</p>');
+<p>We would appreciate your linking to our website: <a href="http://audacityteam.org">http://audacityteam.org</a> so your users can download updated versions of Audacity when released. Also, please subscribe to the notifications list at the bottom of <a href="http://audacityteam.org">http://audacityteam.org</a> to ensure you receive advice of and can distribute the latest version of Audacity.</p>');
 
 echo _('<p>If you bundle the .exe or .dmg Audacity installers, the Audacity <a href="http://manual.audacityteam.org/help/manual/">Manual</a> is included. If you provide the Audacity zip file or source tarball, please consider including the <a href="http://manual.audacityteam.org/help/manual/man/unzipping_the_manual.html">standalone Manual</a> with your distribution to reduce the number of queries we receive.');?>
 

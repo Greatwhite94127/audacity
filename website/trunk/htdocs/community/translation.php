@@ -68,7 +68,7 @@ printf(_('We are grateful that volunteers translate Audacity into many different
 <p><b>Further information:</b></p>
 <ul>
   <li><b>To submit a translation</b>, please send the completed .po file to the audacity-translation mailing list. A member of Audacity Team will commit the file and send a message to the list confirming this.</li> 
-  <li>Please read <a href="http://wiki.audacityteam.org/index.php?title=Translating_Audacity">Translating Audacity</a> for more tips on translating the Audacity source code, and to learn how the Audacity software and web site are translated.</li>
+  <li>Please read <a href="http://wiki.audacityteam.org/index.php?title=Translating_Audacity">Translating Audacity</a> for more tips on translating the Audacity source code, and to learn how the Audacity software and website are translated.</li>
 </ul>'), "https://github.com/audacity/audacity/tree/master/locale", "https://github.com/audacity/audacity/tree/master/locale");
 
   include "../include/footer.inc.php";

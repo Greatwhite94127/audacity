@@ -34,7 +34,7 @@ echo _('<p>You can subscribe to our announcement list by entering your email add
 
 <?=_('<p>(This applies to <a href="http://lists.sourceforge.net/lists/listinfo/audacity-devel">audacity-devel</a>, <a href="http://lists.sourceforge.net/lists/listinfo/audacity-users">audacity-users</a> and our other <a href="../contact/lists">discussion lists</a>.)</p>
 
-<p>These are public mailing lists.  When you send a message to any of these addresses, it will be forwarded to all the list subscribers, including Audacity developers and others.  SourceForge and other web sites may publish archives of these lists.</p>
+<p>These are public mailing lists.  When you send a message to any of these addresses, it will be forwarded to all the list subscribers, including Audacity developers and others.  SourceForge and other websites may publish archives of these lists.</p>
 <p><b>Your email address will always be truncated in published archives for your privacy, and the Audacity developers will not share your address with anyone.</b>  However, we <b>cannot</b> prevent other subscribers from seeing or publishing your messages. Therefore we recommend you avoid putting contact details such as street addresses or telephone numbers in your emails.</p>
 <p>If you have any questions about this policy, please email our <a href="http://audacityteam.org/contact/#feedback">feedback address</a>.</p>')?>
 
