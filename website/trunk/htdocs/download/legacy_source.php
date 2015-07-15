@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2004 Matt Brubeck
- * 2006 - 2012 Richard Ash, Gale Andrews
+ * 2006 - 2015 Richard Ash, Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -23,7 +23,7 @@
 
 <h3><?=_("Optional Downloads")?></h3>
 <ul>
-  <li><p><?=_('Get the source code from <a href="../community/developers#svn">SVN</a>.')?></p></li>
+  <li><p><?=_('Get the source code from <a href="../community/developers#git">Git</a>.')?></p></li>
 <li><p><?php printf(_('If you have trouble with your download, or need an older version of Audacity, try our alternate download links:')) ?></p>
    <ul><li><?php printf(_('<a href="%s">OldFoss</a> (older versions can be viewed by clicking to enter the required folder under "Name")'), "http://www.oldfoss.com/Audacity.html")?></li>
        <li><?php printf(_('<a href="%s">Google Code</a> (click on the headings to sort the list)'), "http://code.google.com/p/audacity/downloads/list")?></li>
