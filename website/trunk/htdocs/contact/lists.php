@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright 2005 Matt Brubeck, 2008 - 2014 Gale Andrews
+ * Copyright 2005 Matt Brubeck, 2008 - 2015 Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -19,7 +19,7 @@
 	// Audacity mailing lists or forums in your language other than noted at 
    // http://wiki.audacityteam.org/wiki/MultiLingual, please link to them here.
 	echo "<p>"._('These lists are for discussion about the Audacity audio editor.  </p>
-<p><b>Note:</b> In line with our <a href="../contact/privacy#lists">Privacy Policy</a>, these are public lists - messages are seen by all list subscribers, and posted on several web sites where the messages are archived.</p>');?>
+<p><b>Note:</b> In line with our <a href="../contact/privacy#lists">Privacy Policy</a>, these are public lists - messages are seen by all list subscribers, and posted on several websites where the messages are archived.</p>');?>
 
 <dl>
   <dt id="users">audacity-users</dt>
@@ -48,16 +48,9 @@
 </p> 
   </dd>
 
-<dt id="svn">audacity-svn</dt>
-  <dd>
-    <p><?=_('Receive automatic notification of every change made to the Audacity <a href="../community/developers#svn">source code</a>.')?> <?=$subscriberOnlyStr?></p>
-	<p><a href="http://groups.google.co.uk/group/audacity-svn">
-	<?php printf($archiveStr, "audacity-svn")?></a>
-  </dd>
-
   <dt id="translation">audacity-translation</dt>
   <dd>
-    <p><?=_('For <a href="../community/translation">translators</a> localizing the Audacity software, web site and documentation.')?>  <?=$subscriberOnlyStr?></p>
+    <p><?=_('For <a href="../community/translation">translators</a> localizing the Audacity software and documentation.')?>  <?=$subscriberOnlyStr?></p>
     <p><a href="http://lists.sourceforge.net/lists/listinfo/audacity-translation"><?php printf($archiveStr, "audacity-translation")?></a>
   </dd>
 
