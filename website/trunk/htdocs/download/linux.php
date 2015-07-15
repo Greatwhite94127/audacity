@@ -2,7 +2,7 @@
 /*
  * Copyright 2004 Matt Brubeck
  * Copyright 2005 Dominic Mazzoni
- * 2008 - 2012 Gale Andrews
+ * 2008 - 2015 Gale Andrews
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -22,8 +22,8 @@
  <li><a href="http://packages.gentoo.org/package/media-sound/audacity">Gentoo</a></li>
  <li><A href="http://packman.links2linux.org/package/286">SuSE/Open SUSE</a></li>
  <li>Ubuntu:
- <ul><li><a href="http://packages.ubuntu.com/search?keywords=audacity&searchon=names&suite=all&section=all">packages.ubuntu</a> release packages.</li>
-     <li><a href="http://wiki.audacityteam.org/wiki/Nightly_Builds#linux">daily PPA packages</a> built from Audacity <a href="/developers#svn">SVN development code</a>. <b>Note:</b> These should not be used as your production version of Audacity.</li>
+ <ul><li><a href="http://packages.ubuntu.com/search?keywords=audacity&searchon=names&suite=all&section=all">Ubuntu release packages.</a> <b>Note:</b> Ubuntu 2.0.6 releases are built against an <a href="http://wiki.audacityteam.org/wiki/Incorrect_wxWidgets_Version">incorrect version of wxWidgets</a>.</li>
+     <li><a href="https://launchpad.net/~ubuntuhandbook1/+archive/ubuntu/audacity">Audacity 2.1.0 release PPA package</a> for Ubuntu 12.04, 14.04, 14.10 and 15.04 (also Linux Mint 13 and 17). This is built against the correct wx2.8.12. Uninstall any packaged version of Audacity before installing the PPA.</li>
      <li><a href="http://rpmseek.com/rpm-pl/audacity.html?hl=com&cx=0%3A-%3A0%3A0%3A0%3A0%3A0&qArStr=0&qRtStr=0&qDnStr=109">rpmseek</a> for legacy Audacity packages.</li>
 </ul></ul>
 ')?></p>
