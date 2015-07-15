@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2004 Matt Brubeck
- * 2007 - 2015 Vaughan Johnson, Gale Andrews
+ * 2007 - 2015 Vaughan Johnson, Gale Andrews, James Crook
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -38,7 +38,7 @@ add_news_item(
        scrubbing and seeking
     </a>, including backwards play.
     Updates to 
-    <a href=\"http://manual.audacityteam.org/o/man/Timeline#tqp Timeline\">
+    <a href=\"http://manual.audacityteam.org/o/man/timeline.html#tqp\">
        Quick-Play
     </a> also help with finding a precise position in the audio.
     </li>
