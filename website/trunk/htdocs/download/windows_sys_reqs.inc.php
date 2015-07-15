@@ -9,9 +9,12 @@
 <h3 id="sysreq"><?=_("System Requirements")?></h3>
 
 <p>
-  <?php printf(_('Read about Audacity on <a href="%s">Windows 8</a>, <a href="%s">7</a> and <a href="%s">Vista</a>.'), 
+  <?php printf(_('Read about Audacity on <a href="%s">Windows 8</a>, <a href="%s">7</a> and <a href="%s">Vista</a>. <b>Windows 10</b> is not yet officially supported, but please write to our <a href="../contact#feedback">feedback address</a> to report any Audacity problems on Windows 10. Windows 2000, NT and 95 are not supported.'), 
   "http://wiki.audacityteam.org/wiki/Windows_8_OS", "http://wiki.audacityteam.org/wiki/Windows_7_OS", "http://wiki.audacityteam.org/wiki/Windows_Vista_OS")?>
-  <?=_("Windows 2000, NT, and 95 are not supported.")?>
+</p>
+
+<p>
+  <?=_("A CPU that supports <a href=\"http://en.wikipedia.org/wiki/SSE2\">SSE2</a> is required (any CPU made after 2003 should support this). Please use the <a href=\"legacy_windows\">legacy Audacity 2.0.6 version</a> if your machine lacks SSE2 support.")?>
 </p>
 
 <p>
