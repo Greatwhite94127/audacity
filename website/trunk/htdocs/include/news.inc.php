@@ -35,8 +35,8 @@ add_news_item(
   <ul>
     <li>The most visible new feature is 
     <a href=\"http://manual.audacityteam.org/o/man/scrubbing_and_seeking.html\">
-       scrubbing and seeking
-    </a>, including backwards play.
+       scrubbing and seeking,
+    </a>including backwards play.
     Updates to 
     <a href=\"http://manual.audacityteam.org/o/man/timeline.html#tqp\">
        Quick-Play
@@ -51,7 +51,7 @@ add_news_item(
 
 <p>
   There's also been lots of work behind the scenes, including VI usability enhancements and upgrade to new libraries.  Fuller details on the changes since 2.1.0 can be found in the 
-    <a href=\"http://wiki.audacityteam.org/wiki/Release_Notes_2.1.1.html\">
+    <a href=\"http://wiki.audacityteam.org/wiki/Release_Notes_2.1.1\">
        2.1.1 Release Notes.
     </a>
 </p>
