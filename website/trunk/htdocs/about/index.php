@@ -1,7 +1,7 @@
 <?php
 /*
  * Copyright 2004 Matt Brubeck
- * 2007-14 Gale Andrews, Vaughan Johnson. 
+ * 2007-15 Gale Andrews, Vaughan Johnson. 
  * This file is licensed under a Creative Commons license:
  * http://creativecommons.org/licenses/by/3.0/
  */
@@ -19,7 +19,7 @@
   <li><a href="http://manual.audacityteam.org/o/man/tutorial_recording_computer_playback_on_windows.html">Record computer playback</a> on any Windows Vista or later machine.</li>
   <li><a href="http://manual.audacityteam.org/o/man/tutorial_copying_tapes_lps_or_minidiscs_to_cd.html">Convert tapes and records</a> into digital recordings or CDs.</li>
   <li>Edit WAV, AIFF, FLAC, MP2, MP3 or Ogg Vorbis sound files.</li>
-  <li>AC3, M4A/M4R (AAC), WMA and other formats supported using optional libraries.</li>
+  <li>AC3, M4A/M4R (AAC), WMA and other formats supported using the optional <a href="http://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#ffdown">FFmpeg library</a></li>.
   <li>Cut, copy, <a href="http://manual.audacityteam.org/o/man/faq_editing.html#join">splice</a> or <a href="http://manual.audacityteam.org/o/man/mixing.html">mix</a> sounds together.</li>
   <li>Numerous effects including <a href="http://manual.audacityteam.org/o/man/index_of_effects_generators_and_analyzers.html#Make_the_sound_faster.2C_slower.2C_lower_pitched_or_higher_pitched">change speed or pitch</a> and <a href="http://manual.audacityteam.org/o/man/vocal_reduction_and_isolation.html">vocal reduction or isolation</a> (given suitable stereo tracks).
 </li>
