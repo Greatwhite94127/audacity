@@ -62,7 +62,7 @@
   $titleStr = _("Audacity: Free Sound Editor and Recording Software");
   $titleImg = "<img title=\"$titleStr\" alt=\"$titleStr\" src=\"$sitePath/images/Audacity-logo-r_50pct.jpg\">";
 
-  if ($sectionId == "" && $pageId == "") {
+  if (isset($sectionId) && isset($pageId) && $sectionId == "" && $pageId == "") {
     echo "<h1>$titleImg</h1>";
   }
   else {
@@ -97,7 +97,7 @@
 </div>
 
 <?php
-  if ($sectionNavItems) {
+  if (isset($sectionNavItems) && $sectionNavItems<>0) {
   ?>
 
   <div id="leftcolumn">
@@ -154,7 +154,7 @@
           }
 
           if ($selected) {
-            ?><li <?=$li_class?>><?=$indent?><?=$name?></li><?php
+            ?><li <?=$li_class?>><?=$indented?><?=$name?></li><?php
           }
           else {
             ?><li <?=$li_class?>><a href="<?=$sectionPath?>/<?=$path?>"><?=$name?></a></li><?php
@@ -208,4 +208,4 @@
   }
 ?>
 
-<div id="content"<?php if ($sectionNavItems) echo ' class="afternav"';?>>
+<div id="content"<?php if (isset($sectionNavItems)) echo ' class="afternav"';?>>

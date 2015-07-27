@@ -88,8 +88,8 @@ function localization_setup() {
 // Return the explicitly requested language, if available.
 function get_requested_lang() {
   global $cookie_days;
-  $result = $_COOKIE["lang"];
-  if ($_GET["lang"]) {
+  $result = array_key_exists('lang', $_COOKIE) ? $_COOKIE["lang"] : "en";
+  if (array_key_exists('lang',$_GET)) {
     $result = $_GET["lang"];
     setcookie("lang", $result, time() + $cookie_days*24*60*60, "/");
   }

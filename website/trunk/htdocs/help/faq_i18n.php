@@ -7,12 +7,12 @@
   require_once "main.inc.php";
   $pageId = "faq_i18n";
 
-  if ($_REQUEST["section"])
+  if (array_key_exists('section',$_REQUEST))
     $faqSectionId = $_REQUEST["section"];
   else
     $faqSectionId = $_REQUEST["s"];
 
-  if ($_REQUEST["item"])
+  if (array_key_exists('item',$_REQUEST))
     $itemId = $_REQUEST["item"];
   else
     $itemId = $_REQUEST["i"];

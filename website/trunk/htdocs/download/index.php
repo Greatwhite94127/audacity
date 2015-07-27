@@ -14,7 +14,7 @@
   // include "../beta/versions.inc.php";
   // include "../legacy/versions.inc.php";
   $stable_version = stable_version;
-  $beta_version = beta_version;
+  if (defined('beta_version')) $beta_version = beta_version;
 ?>
 
 <h2><?=$pageTitle?></h2>
