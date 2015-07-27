@@ -8,7 +8,7 @@
   require_once "../include/news.inc.php";
   $pageId = "news";
 
-  $itemId = $_REQUEST["id"];
+  $itemId = array_key_exists('id',$_REQUEST) ? $_REQUEST["id"] : "";
 
   if ($itemId != "") {
     $news_item = $news_items[$itemId];
